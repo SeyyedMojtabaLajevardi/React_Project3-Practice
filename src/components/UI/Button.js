@@ -1,9 +1,9 @@
 import React from "react";
 import classes from './Button.module.css'
 const Button = props => {
-    return <Button className={classes.Button} type={props.type || 'button'} onClick={props.onClick}>
+    return <button className={classes.Button} type={props.type || 'button'} onClick={props.onClick}>
         {props.chilren}
-    </Button>
+    </button>
 }
 
 export default Button;
